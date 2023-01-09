@@ -18,7 +18,6 @@ body{
 }
 .section{
     padding-top: 64px;
-    padding-bottom: 92px;
 }
 .section-title{
     margin: 0;
@@ -96,11 +95,11 @@ body{
     font-weight: bold;
 }
 .mastep-avatar{
-    width: 118px;
-    height: 118px;
+    width: 250px;
+    height: 250px;
     background-color: white;
-    border-radius: 65%;
-    background-image: url('../img/Alexei_Kushnirenko_120px.jpg');
+    border-radius: 50%;
+    background-image: url('../img/s.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     border: 5px solid yellow;
@@ -247,6 +246,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 .contacts-text{
     flex-basis: 50%;
@@ -284,10 +284,31 @@ body{
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;
-    text-decoration-line: underline;
+    text-decoration: none;
     color: #A5A5A5;
     margin-top: 72px;
-
+    margin-right: 50px;
+}
+.contacts-policy:hover
+{
+    text-decoration: underline;
+}
+.alexstudio
+{
+    color: #A5A5A5;
+    text-decoration: none;
+}
+.alexstudio > .alex
+{
+    color: #045CBB;
+}
+.alexstudio > .studio 
+{
+    color: #FFC41D;
+}
+.copyright
+{
+    text-align: center;
 }
 /* responsive*/
 @media (max-width: 836px) {
